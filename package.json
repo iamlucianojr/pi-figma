@@ -1,6 +1,6 @@
 {
   "name": "pi-figma",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pi package for Figma integration — inspect files, components, styles, nodes, export assets, and read comments directly from Figma's REST API.",
   "type": "module",
   "license": "MIT",
