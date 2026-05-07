@@ -1,0 +1,55 @@
+{
+  "name": "pi-figma",
+  "version": "1.0.0",
+  "description": "Pi package for Figma integration — inspect files, components, styles, nodes, export assets, and read comments directly from Figma's REST API.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Luciano Junior <luciano.junior@umo.business>",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-extension",
+    "figma",
+    "figma-api",
+    "design",
+    "design-tokens",
+    "export",
+    "components",
+    "styles"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/figma.ts"
+    ],
+    "skills": [
+      "./skills"
+    ]
+  },
+  "files": [
+    "extensions/figma.ts",
+    "skills/figma/SKILL.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@mariozechner/pi-ai": "*",
+    "@sinclair/typebox": "*"
+  },
+  "devDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@mariozechner/pi-ai": "*",
+    "@sinclair/typebox": "*",
+    "@mariozechner/pi-tui": "*",
+    "typescript": "^5.9.3"
+  }
+}
